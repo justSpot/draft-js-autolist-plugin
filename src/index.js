@@ -65,7 +65,7 @@ function autoListPlugin () {
 
       // Only run our more complex checks if the last character
       // typed is a space
-      if (e.keyCode === 32) {
+      if (e.key === ' ') {
         // Test the last two characters to see if they match the full unordered
         // list regex
         const lastTwoChars = keyCharsHistory.slice(-2).join('')
