@@ -5,7 +5,6 @@
  * @return {Array} The adjusted history
  */
 function trackCharacters (history = [], e) {
-  console.log(e.key)
   // Keep history to <= 3 items because we only need that much to determine
   // whether a list is being indicated
   if (history.length > 2) {
